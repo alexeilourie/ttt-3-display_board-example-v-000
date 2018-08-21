@@ -8,9 +8,9 @@ def display_board
 end
 
 def line1 #prints lines 1, 3, 5 for the tic tac toe board
-  puts "   |   |   "
+  return "   |   |   "
 end
 
 def line2 #prints lines 2, 4 for the tic tac toe board
-  puts "___________"
+  return "___________"
 end
